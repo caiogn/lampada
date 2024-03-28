@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+/*document.addEventListener("DOMContentLoaded", function() { */ 
 
 const lamp = document.querySelector("#on img")
 const button = document.querySelector("#apertar")
@@ -19,4 +19,4 @@ button.addEventListener('click', function() {
     }
     lampadaAcesa = !lampadaAcesa;
 });
-});
+//});
